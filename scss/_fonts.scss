@@ -1,0 +1,29 @@
+$fira-mono-font-path: '../fonts' !default;
+
+// fira-mono-regular - cyrillic_latin
+@font-face {
+	font-family: 'Fira Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-regular.eot');
+	src: local('Fira Mono Regular'), local('FiraMono-Regular'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-regular.woff2') format('woff2'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-regular.woff') format('woff'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-regular.ttf') format('truetype'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-regular.svg#FiraMono') format('svg');
+}
+
+// fira-mono-700 - cyrillic_latin
+@font-face {
+	font-family: 'Fira Mono';
+	font-style: normal;
+	font-weight: 700;
+	src: url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-700.eot');
+	src: local('Fira Mono Bold'), local('FiraMono-Bold'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-700.woff2') format('woff2'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-700.woff') format('woff'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-700.ttf') format('truetype'),
+	url('#{$fira-mono-font-path}/fira-mono-v6-cyrillic_latin-700.svg#FiraMono') format('svg');
+}
